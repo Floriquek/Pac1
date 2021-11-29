@@ -23,6 +23,7 @@ variable "sub" {
   default = "subnet-071fb032d5be89f49"
 }
 variable "iportz" {
+  # change accordingly
   default = [22,3306,33060]
 }
 
