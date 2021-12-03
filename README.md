@@ -3,6 +3,9 @@
 
 <i> Since I've played with Packer, and it didn't allow me to grab my AMI ID that easily when deploying with Terraform... </i> 
 
+For a modular and less hardcoded approach, go and check <a href="https://github.com/Floriquek/Pac2">Pac2</a>
+
+
 Requirements:
 
 > you have setup a vpc and a subnet 
@@ -151,5 +154,7 @@ ubuntu@ip-10-0-0-40:~$
 ```
 
 So, we deployed a new instance by using a Packer AMI, both case scenarios with the help of Terraform
+
+
 
 <i> Fini!  </i> 
